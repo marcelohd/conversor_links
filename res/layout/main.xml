@@ -3,7 +3,8 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-	    <LinearLayout
+	
+    <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
@@ -33,10 +34,6 @@
         
     </LinearLayout>
 
-<!--	<LinearLayout
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:orientation="horizontal" /> -->
          	 <RadioGroup
          	     android:id="@+convert_rgroup/radiogroup"
          	     android:layout_width="fill_parent"
@@ -70,7 +67,9 @@
 	       			    android:text="@string/radio05" />
 
 	    	</RadioGroup>	  
-<!--  	</LinearLayout>-->
+
+
+
     <WebView
         android:id="@+convert_webv/webv"
         android:layout_width="1271dp"
