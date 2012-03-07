@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+convert_editext/link"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/link"/>
+
+
+        <Button
+            android:id="@+convert_buttons/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check" />
+
+        <Button
+            android:id="@+convert_buttons/inverter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invert" />
+        
+        
+    </LinearLayout>
+
+         	 <RadioGroup
+         	     android:id="@+convert_rgroup/radiogroup"
+         	     android:layout_width="fill_parent"
+         	     android:layout_height="wrap_content"
+         	     android:orientation="horizontal">
+
+			        <RadioButton
+			            android:id="@+convert_rb/rb01"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="@string/radio01"
+			            android:textSize="@dimen/a" />
+
+			        <RadioButton
+			            android:id="@+convert_rb/rb02"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="@string/radio02"
+			             android:textSize="@dimen/a"  />
+
+					<RadioButton
+					    android:id="@+convert_rb/rb03"
+					    android:layout_width="wrap_content"
+					    android:layout_height="wrap_content"
+					    android:text="@string/radio03"
+					    android:textSize="@dimen/a"  />
+
+	       			<RadioButton
+	       			    android:id="@+convert_rb/rb04"
+	       			    android:layout_width="300dp"
+	       			    android:layout_height="wrap_content"
+	       			    android:text="@string/radio04"
+	       			     android:textSize="@dimen/a"  />
+
+					<RadioButton
+					    android:id="@+convert_rb/rb05"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:text="@string/radio05"
+					    android:textSize="@dimen/a" />
+
+	    	</RadioGroup>	  
+<!--  	</LinearLayout>-->
+
+    <WebView
+        android:id="@+convert_webv/webv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+</LinearLayout>

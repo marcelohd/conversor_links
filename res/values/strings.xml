@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Conversor Links</string>
+    
+    <string name="check">Verificar</string>
+    <string name="invert">Inverter</string>
+    <string name="link">Endereço invertido ou criptografado</string>
+    
+	
+    <string name="radio01">Invertidos</string>
+    <string name="radio02">Base 64</string>
+    <string name="radio03">Caracteres escapados(%XX)</string>
+    <string name="radio04">Ordenados par e impar, crescentes e decrescentes</string>
+    <string name="radio05">Base Hexadecimal</string>
+    
+    <string name="menu_1">Sobre</string>
+    <string name="menu_2">Modo de usar</string>
+   
+    <dimen name="a">11dip</dimen>
+</resources>
