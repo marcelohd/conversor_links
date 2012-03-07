@@ -3,7 +3,8 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-	    <LinearLayout
+	
+    <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
@@ -49,32 +50,34 @@
 			            android:layout_width="wrap_content"
 			            android:layout_height="wrap_content"
 			            android:text="@string/radio02"
-			             android:textSize="@dimen/a"  />
-
-					<RadioButton
-					    android:id="@+convert_rb/rb03"
-					    android:layout_width="wrap_content"
-					    android:layout_height="wrap_content"
-					    android:text="@string/radio03"
-					    android:textSize="@dimen/a"  />
-
+			            android:textSize="@dimen/a"  />
+
+
+				<RadioButton
+				    android:id="@+convert_rb/rb03"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="@string/radio03"
+				    android:textSize="@dimen/a"  />
+
+
 	       			<RadioButton
 	       			    android:id="@+convert_rb/rb04"
 	       			    android:layout_width="300dp"
 	       			    android:layout_height="wrap_content"
 	       			    android:text="@string/radio04"
 	       			     android:textSize="@dimen/a"  />
-
-					<RadioButton
-					    android:id="@+convert_rb/rb05"
-					    android:layout_width="match_parent"
-					    android:layout_height="wrap_content"
-					    android:text="@string/radio05"
-					    android:textSize="@dimen/a" />
+
+
+				<RadioButton
+				    android:id="@+convert_rb/rb05"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:text="@string/radio05"
+				    android:textSize="@dimen/a" />
 
 	    	</RadioGroup>	  
-<!--  	</LinearLayout>-->
-
+
     <WebView
         android:id="@+convert_webv/webv"
         android:layout_width="match_parent"
